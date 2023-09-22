@@ -1,4 +1,5 @@
 'use client'
+
 import { useTheme } from 'next-themes'
 
 export default function DarkModeToggleButton() {
@@ -15,8 +16,10 @@ export default function DarkModeToggleButton() {
         dark:hover:text-yellow-300"
           
         type='button'
-        onClick={() => setTheme(theme ==='dark' ? 'light' : 'dark')}
-      >
+        onClick={() => {
+          setTheme(theme ==='dark' ? 'light' : 'dark')
+        }}
+        >
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" 
         className="visible dark:invisible w-5 h-5 dark:w-0 dark:h-0">
