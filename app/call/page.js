@@ -8,14 +8,13 @@ export default function Call() {
     padding: '0',
     filter: 'grayscale(1) contrast(1.2) opacity(0.4)'
   };
-
   return (
     <>
       <section className="text-gray-600 body-font relative">
         <div className="absolute inset-0 bg-gray-300">
           <iframe
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99143.66470600392!2d126.93537291336911!3d37.503947981937806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f332cb082b%3A0xe92b70ac420cf0a8!2z7ISc7Jq47Yq567OE7Iuc7LKt!5e0!3m2!1sko!2skr!4v1695361358924!5m2!1sko!2skr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404813.1751191019!2d126.64449196607245!3d37.564417827180634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2012d5c39cf%3A0x7e11eca1405bf29b!2z7ISc7Jq47Yq567OE7Iuc!5e0!3m2!1sko!2skr!4v1695363606911!5m2!1sko!2skr"
             style={iframeStyle}
             allowFullScreen
           />
