@@ -3,6 +3,6 @@ const nextConfig = {}
 
 module.exports = {
   images: {
-    domains: ['www.notion.so', 'www.jne.go.kr'],
+    domains: ['www.notion.so', 'encrypted-tbn0.gstatic.com'],
   },
 }
