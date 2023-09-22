@@ -35,11 +35,11 @@ export default async function Project() {
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen px-3 pb-10">
-        <title>오성노트 둘러보기</title>
+        <title>오성노트 보기</title>
         <meta name="description" content="Notes by osung" />
         <link rel="icon" href="/favicon.ico" />
 
-        <h2>총 노트 수: {noteData.length}</h2>
+        <h2>오성 지현의 자바스크립트 문법</h2>
         <div className="grid grid-cols-1 align-middle lg:grid-cols-4 md:grid-cols-2 p-10 m-4 gap-8 transition-opacity">
           {
             noteData.map((note)=>(
