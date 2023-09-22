@@ -40,10 +40,10 @@ export default async function Project() {
         <link rel="icon" href="/favicon.ico" />
 
         <h2>오성 지현의 자바스크립트 문법</h2>
-        <div className="grid grid-cols-1 align-middle lg:grid-cols-4 md:grid-cols-2 p-10 m-4 gap-8 transition-opacity">
+        <div className="grid grid-cols-1 align-middle lg:grid-cols-4 md:grid-cols-2 p-5 m-4 gap-8 transition-opacity ">
           {
             noteData.map((note)=>(
-              <NoteItem key={note.id} note={note}/>
+              <NoteItem key={note.id} note={note} />
             ))
           }
         </div>
