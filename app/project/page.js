@@ -1,4 +1,4 @@
-import NoteItem from "@/components/projects/noteItem";
+import Notes from "@/components/projects/notes";
 import { TOKEN, DATABASE_ID } from "@/config/index"
 
 async function getData() {
@@ -52,13 +52,8 @@ export default async function Project() {
           그 중 '척추 동물'의 구분과 각 구분에 따른 동물을 소개하고자 합니다.
         </p>
 
-        <div className="grid grid-cols-1 align-middle lg:grid-cols-4 md:grid-cols-2 px-24 py-11 max-xl:px-3 m-4 gap-8 transition-opacity ">
-          {
-            noteData.map((note)=>(
-              <NoteItem key={note.id} note={note} />
-            ))
-          }
-        </div>
+        <Notes noteData={noteData}/>
+        
       </div>
     </>
   )
