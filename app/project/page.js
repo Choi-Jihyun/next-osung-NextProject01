@@ -46,10 +46,10 @@ export default async function Project() {
         <link rel="icon" href="/favicon.ico" />
 
         <h2 className="font-bold text-lg pb-3">척추 동물 분류 어려웠죠?</h2>
-        <p className="px-4">
+        <p className="px-4 text-center">
           초등학교 교과서에 반복적으로 나오는 척추동물들을 데리고 나왔습니다!<br/>
           등뼈의 유무에 따라 등뼈가 있는 동물을 척추동물이라 하고 등뼈가 없는 동물을 무척추 동물이라고 합니다.<br/>
-          그 중 척추 동물의 구분과 각 구분에 따른 동물을 소개하고자 합니다.
+          그 중 척추 동물의 구분과 각 구분에 따른 동물들을 소개하고자 합니다.
         </p>
 
         <Notes noteData={noteData}/>

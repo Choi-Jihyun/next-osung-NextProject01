@@ -6,8 +6,6 @@ export default function NoteItem({ note }) {
   const noteTitle = note.properties["이름"].title[0]?.text.content || "제목 없음"
   const noteTag = note.properties["태그"].multi_select || ""
   const noteText = note.properties["설명"].rich_text[0]?.plain_text || "내용 없음"
-  console.log('noteTitle: ', noteTitle);
-  console.log('noteTag: ', noteTag);
 
   return (
     <>
