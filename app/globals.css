@@ -46,6 +46,11 @@
   @apply bg-white dark:bg-slate-800
 } */
 
+.custom-image-container {
+  object-fit: cover;
+  object-position: center center;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

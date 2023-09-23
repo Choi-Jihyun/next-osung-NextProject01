@@ -4,10 +4,10 @@ import LottieAnimation from './lottieAnimation';
 export default function MyProjectsSection() {
   return (
     <>
-      <section className="flex min-h-screen flex-col items-center justify-center text-gray-400 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <section className="flex min-h-screen flex-col items-center justify-center text-white body-font">
+        <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-400">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-300">
               초등교사이며
               <br/>
               프론트엔드 개발자
