@@ -9,7 +9,7 @@ export default function NoteItem({ note }) {
 
   return (
     <>
-      <li className="w-full h-auto pb-7 bg-white drop-shadow-md rounded-2xl hover:scale-105 transition-all ease-out duration-300 cursor-pointer overflow-hidden">
+      <li className="w-full h-auto pb-7 bg-white drop-shadow-md rounded-2xl hover:scale-105 max-sm:hover:scale-100 transition-all ease-out duration-300 cursor-pointer overflow-hidden">
         <div className="custom-image-container w-full h-[160px] relative object-center overflow-hidden">
           <Image
             src={noteImg}
