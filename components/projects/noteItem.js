@@ -4,7 +4,7 @@ export default function NoteItem({ note }) {
 
   const noteImg = note.cover?.external.url || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUYk9EEmfihL28UIePdXaRFFhdC0bpF5xZMg&usqp=CAU"
   const noteTitle = note.properties["이름"].title[0]?.text.content || "제목 없음"
-  const noteTag = note.properties["태그"].multi_select
+  const noteTag = note.properties["태그"].multi_select || ""
   const noteText = note.properties["설명"].rich_text[0]?.plain_text || "내용 없음"
   console.log('noteTitle: ', noteTitle);
   console.log('noteTag: ', noteTag);
