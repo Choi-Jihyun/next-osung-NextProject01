@@ -15,7 +15,7 @@ export default function header() {
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link href="/" className="mr-5 hover:text-gray-900">HOME</Link>
-            <Link href="/project" className="mr-5 hover:text-gray-900">NOTE</Link>
+            <Link href="/project" className="mr-5 hover:text-gray-900">척추동물</Link>
             <Link href="/call" className="mr-5 hover:text-gray-900">CALL</Link>
           </nav>
           <DarkModeToggleButton/>

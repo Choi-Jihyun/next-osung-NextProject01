@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: '오성노트',
-  description: '프론트엔드와 관련된 다양한 프로그램들에 대하여 노트를 작성했습니다. 오성노트입니다.',
+  description: '초등학생들이 자주 헷갈려 하는 주제에 대하여 노트를 작성했습니다. 오성노트입니다.',
 }
 
 export default function RootLayout({ children }) {
