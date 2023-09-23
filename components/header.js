@@ -4,7 +4,7 @@ import Link from 'next/link'
 import DarkModeToggleButton from './dark-mode-toggle-button';
 import { useState } from 'react';
 
-export default function header() {
+export default function Header() {
   
   const [selectedMenu, setSelectedMenu] = useState('HOME');
 

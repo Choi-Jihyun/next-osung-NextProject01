@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function footer() {
+export default function Footer() {
   return (
     <>
       <footer className="text-gray-600 body-font">
