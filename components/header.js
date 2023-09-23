@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <>
       <header className="text-gray-600 body-font">
-      <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet" />
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link href="/" className="flex title-font font-medium items-center text-white mb-4 md:mb-0" Click={() => setSelectedMenu('HOME')}>
             <span className={`ml-3 text-2xl gugi`}>오성 노트</span>
