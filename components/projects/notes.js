@@ -30,13 +30,13 @@ export default function Notes({ noteData }) {
         ))}
       </div>
       
-      <div className="grid grid-cols-1 align-middle lg:grid-cols-4 md:grid-cols-2 px-24 py-11 max-xl:px-3 m-4 gap-8 transition-opacity ">
-          {
-            noteData.filter(note => selectedTag === '모두' || note.properties["태그"].multi_select.some(tag => tag.name === selectedTag)).map((note)=>(
-              <NoteItem key={note.id} note={note} />
-            ))
-          }
-        </div>
+      <ul className="grid grid-cols-1 align-middle lg:grid-cols-4 md:grid-cols-2 px-24 py-11 max-xl:px-3 m-4 gap-8 transition-opacity ">
+        {
+          noteData.filter(note => selectedTag === '모두' || note.properties["태그"].multi_select.some(tag => tag.name === selectedTag)).map((note)=>(
+            <NoteItem key={note.id} note={note} />
+          ))
+        }
+      </ul>
 
     </div>
   )
