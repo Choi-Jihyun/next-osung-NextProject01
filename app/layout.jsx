@@ -1,10 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Noto_Sans } from 'next/font/google'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { Providers } from './providers'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Noto_Sans({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata = {
   title: '오성노트',
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
         </Providers>
         <Footer/>
       </body>
+
     </html>
   )
 }
