@@ -40,7 +40,7 @@ export default async function Project() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen px-3 pb-4 p-24 max-sm:p-3">
+      <div className="flex flex-col items-center justify-center min-h-screen px-3 pb-4 p-24 pt-5 max-sm:p-3">
         <title>척추동물</title>
         <meta name="description" content="척추 동물의 종류와 예시를 볼 수 있습니다." />
         <link rel="icon" href="/favicon.ico" />

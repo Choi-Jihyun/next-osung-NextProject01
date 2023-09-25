@@ -22,7 +22,11 @@ export default function Notes({ noteData }) {
         {animalSortButton.map((button, index) => (
           <button
             key={index}
-            className={`px-3 py-1 rounded-md ${button.bgcolor} ${selectedTag === button.name ? " border border-white" : ""}`}
+            className={`
+              px-3 py-1 rounded-md 
+              ${button.bgcolor} 
+              ${selectedTag === button.name ? " border border-white" : ""}`
+            }
             onClick={() => setSelectedTag(button.name)}
           >
             {button.name}
@@ -31,11 +35,9 @@ export default function Notes({ noteData }) {
       </div>
       
       <ul className="grid grid-cols-1 align-middle lg:grid-cols-4 md:grid-cols-2 px-24 py-11 max-xl:px-3 m-4 gap-8 transition-opacity ">
-        {
-          noteData.filter(note => selectedTag === '모두' || note.properties["태그"].multi_select.some(tag => tag.name === selectedTag)).map((note)=>(
-            <NoteItem key={note.id} note={note} />
-          ))
-        }
+        {noteData.filter(note => selectedTag === '모두' || note.properties["태그"].multi_select.some(tag => tag.name === selectedTag)).map((note)=>(
+          <NoteItem key={note.id} note={note} />
+        ))}
       </ul>
 
     </div>
